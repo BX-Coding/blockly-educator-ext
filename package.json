@@ -1,11 +1,11 @@
 {
-  "name": "chrome-extension-boilerplate-react-vite",
+  "name": "blockly-educator-ext",
   "version": "0.0.1",
   "description": "chrome extension boilerplate",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Jonghakseo/chrome-extension-boilerplate-react-vite.git"
+    "url": "https://github.com/BX-Coding/blockly-educator-ext"
   },
   "scripts": {
     "build": "tsc --noEmit && vite build",
@@ -18,7 +18,8 @@
   "type": "module",
   "dependencies": {
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-rnd": "^10.4.1"
   },
   "devDependencies": {
     "@rollup/plugin-typescript": "^8.5.0",

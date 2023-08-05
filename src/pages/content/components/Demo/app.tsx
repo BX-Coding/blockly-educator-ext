@@ -1,9 +1,10 @@
 import { useEffect } from "react";
+import { ContentDisplay } from "../ContentDisplay";
 
 export default function App() {
   useEffect(() => {
     console.log("content view loaded");
   }, []);
 
-  return <div className="content-view text-lime-400">content view</div>;
+  return <ContentDisplay />;
 }
